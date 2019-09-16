@@ -5,9 +5,9 @@ Custom SQL Server database project that is compatible with [Identity nuget](http
 # Use cases
 
 + You need to use Identity without having to deal with EF Core and its imprevisible migrations.
-+ You already made a set of investment on other ORMs that doesn't provide identity providers so you need to recreate identity database and implement identity stores manually.
-+ You need to review database schema and maybe adjust it before deploying it to Dev/Staging/Prod environment.
-+ You need to implement CI/CD for your identity database.
++ You had already made a set of investment on other ORMs that doesn't provide Identity providers so you need to recreate the database and implement Identity stores manually.
++ You need to review database schema and maybe adjust it before deploying it to Dev/Staging/Prod environments.
++ You need to implement CI/CD for your Identity database.
 
 # Deployment
 
